@@ -8,13 +8,14 @@
 
 import UIKit
 import CoreLocation
+import GradientProgress
 
 class CheckInViewController: UIViewController {
     
     @IBOutlet var noRecordView: UIView!
     @IBOutlet var checkInTable: UITableView!
     
-    @IBOutlet weak var pointSlider: UISlider!
+    @IBOutlet weak var slider: GradientProgressBar!
     var loginInfoDictionary :NSMutableDictionary!
     var storeList = [[String:Any]]()
     var pageIndex = 1
@@ -31,8 +32,8 @@ class CheckInViewController: UIViewController {
         
     checkInTable.register(UINib(nibName: "CheckInCell", bundle: nil), forCellReuseIdentifier: "cell")
         
-        pointSlider.setMaximumTrackImage(#imageLiteral(resourceName: "sliderW"), for: .normal)
-        pointSlider.setMinimumTrackImage(#imageLiteral(resourceName: "sliderR"), for: .normal)
+//        pointSlider.setMaximumTrackImage(#imageLiteral(resourceName: "sliderW"), for: .normal)
+//        pointSlider.setMinimumTrackImage(#imageLiteral(resourceName: "sliderR"), for: .normal)
     }
     
   override func viewWillAppear(_ animated: Bool) {
@@ -130,11 +131,11 @@ class CheckInViewController: UIViewController {
                             let point : Int = (payload[kCustomerPoint] as? Int)!
                             self.pointLabel.text = "\(point) Points"
                             self.levelLabel.text = "Level \(Level)"
-                            let total = payload["totalLevel"] as! Int
+//                           let total = payload["totalLevel"] as! Int
 //                            let avg = Level/total * 100
-                            self.pointSlider.minimumValue = 0
-                            self.pointSlider.maximumValue = Float(total)
-                            self.pointSlider.value = Float(Level)
+//                            self.pointSlider.minimumValue = 0
+//                            self.pointSlider.maximumValue = Float(total)
+                            self.slider.progress = Float(Level)
 //                            self.titleView.setTitleData(point: String(point), level: String(Level))
                         }
                         
@@ -151,7 +152,7 @@ class CheckInViewController: UIViewController {
                     }
                     else
                     {
-                        let message = dict[kMessage]
+                       // let message = dict[kMessage]
                         self.noRecordView.isHidden = false
                         self.checkInTable.isHidden = true
 //                        alertController(controller: self, title: "", message:message! as! String, okButtonTitle: "OK", completionHandler: {(index) -> Void in

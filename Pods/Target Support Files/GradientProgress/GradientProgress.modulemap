@@ -1,0 +1,6 @@
+framework module GradientProgress {
+  umbrella header "GradientProgress-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -42,11 +42,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Frinck/Controllers/Chat/DialogsViewController.swift"
-            timestampString = "563721314.7162499"
+            timestampString = "563786864.952083"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "170"
-            endingLineNumber = "170"
+            startingLineNumber = "175"
+            endingLineNumber = "175"
             landmarkName = "getDialogs()"
             landmarkType = "7">
             <Locations>
@@ -57,12 +57,12 @@
                   symbolName = "Frinck.DialogsViewController.getDialogs() -&gt; ()"
                   moduleName = "Frinck"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/rampatid/Documents/Frinck/IOS/Frinck/Controllers/Chat/DialogsViewController.swift"
-                  timestampString = "563721316.630524"
+                  urlString = "file:///Users/rampatid/Documents/FrinckCommit/Frinck/Controllers/Chat/DialogsViewController.swift"
+                  timestampString = "563786865.294551"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "171"
-                  endingLineNumber = "171"
+                  startingLineNumber = "176"
+                  endingLineNumber = "176"
                   offsetFromSymbolStart = "644">
                </Location>
                <Location
@@ -72,12 +72,12 @@
                   symbolName = "closure #3 (Swift.Optional&lt;__ObjC.QBResponse&gt;, Swift.Optional&lt;Swift.Array&lt;__ObjC.QBChatDialog&gt;&gt;, Swift.Optional&lt;Swift.Set&lt;__ObjC.NSNumber&gt;&gt;, Swift.UnsafeMutablePointer&lt;ObjectiveC.ObjCBool&gt;) -&gt; () in Frinck.DialogsViewController.getDialogs() -&gt; ()"
                   moduleName = "Frinck"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/rampatid/Documents/Frinck/IOS/Frinck/Controllers/Chat/DialogsViewController.swift"
-                  timestampString = "563721316.632494"
+                  urlString = "file:///Users/rampatid/Documents/FrinckCommit/Frinck/Controllers/Chat/DialogsViewController.swift"
+                  timestampString = "563786865.296436"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "173"
-                  endingLineNumber = "173"
+                  startingLineNumber = "178"
+                  endingLineNumber = "178"
                   offsetFromSymbolStart = "37">
                </Location>
             </Locations>
@@ -90,11 +90,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Frinck/Controllers/Chat/DialogsViewController.swift"
-            timestampString = "563721314.717154"
+            timestampString = "563786864.952425"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "157"
-            endingLineNumber = "157"
+            startingLineNumber = "162"
+            endingLineNumber = "162"
             landmarkName = "getDialogs()"
             landmarkType = "7">
             <Locations>
@@ -105,12 +105,12 @@
                   symbolName = "Frinck.DialogsViewController.getDialogs() -&gt; ()"
                   moduleName = "Frinck"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/rampatid/Documents/Frinck/IOS/Frinck/Controllers/Chat/DialogsViewController.swift"
-                  timestampString = "563721316.638507"
+                  urlString = "file:///Users/rampatid/Documents/FrinckCommit/Frinck/Controllers/Chat/DialogsViewController.swift"
+                  timestampString = "563786865.300693"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "157"
-                  endingLineNumber = "157"
+                  startingLineNumber = "162"
+                  endingLineNumber = "162"
                   offsetFromSymbolStart = "166">
                </Location>
                <Location
@@ -120,12 +120,12 @@
                   symbolName = "closure #1 (__ObjC.QBResponse, Swift.Optional&lt;Swift.Array&lt;__ObjC.QBChatDialog&gt;&gt;, Swift.Optional&lt;Swift.Set&lt;__ObjC.NSNumber&gt;&gt;, Swift.UnsafeMutablePointer&lt;ObjectiveC.ObjCBool&gt;) -&gt; () in Frinck.DialogsViewController.getDialogs() -&gt; ()"
                   moduleName = "Frinck"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/rampatid/Documents/Frinck/IOS/Frinck/Controllers/Chat/DialogsViewController.swift"
-                  timestampString = "563721316.640326"
+                  urlString = "file:///Users/rampatid/Documents/FrinckCommit/Frinck/Controllers/Chat/DialogsViewController.swift"
+                  timestampString = "563786865.302309"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "159"
-                  endingLineNumber = "159"
+                  startingLineNumber = "164"
+                  endingLineNumber = "164"
                   offsetFromSymbolStart = "37">
                </Location>
             </Locations>
@@ -138,11 +138,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Frinck/Controllers/Chat/DialogsViewController.swift"
-            timestampString = "563721314.717779"
+            timestampString = "563786864.952631"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "176"
-            endingLineNumber = "176"
+            startingLineNumber = "181"
+            endingLineNumber = "181"
             landmarkName = "getDialogs()"
             landmarkType = "7">
          </BreakpointContent>
@@ -154,11 +154,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Frinck/Controllers/Chat/DialogsViewController.swift"
-            timestampString = "563721314.71845"
+            timestampString = "563786864.952822"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "179"
-            endingLineNumber = "179"
+            startingLineNumber = "184"
+            endingLineNumber = "184"
             landmarkName = "getDialogs()"
             landmarkType = "7">
          </BreakpointContent>
@@ -170,11 +170,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Frinck/Controllers/Chat/DialogsViewController.swift"
-            timestampString = "563721314.71891"
+            timestampString = "563786864.953017"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "395"
-            endingLineNumber = "395"
+            startingLineNumber = "400"
+            endingLineNumber = "400"
             landmarkName = "chatServiceChatDidReconnect(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -186,11 +186,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Frinck/Controllers/Chat/DialogsViewController.swift"
-            timestampString = "563721314.719852"
+            timestampString = "563786864.953248"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "383"
-            endingLineNumber = "383"
+            startingLineNumber = "388"
+            endingLineNumber = "388"
             landmarkName = "chatServiceChatDidConnect(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -202,11 +202,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Frinck/Controllers/Chat/DialogsViewController.swift"
-            timestampString = "563721314.720476"
+            timestampString = "563786864.953445"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "161"
-            endingLineNumber = "161"
+            startingLineNumber = "166"
+            endingLineNumber = "166"
             landmarkName = "getDialogs()"
             landmarkType = "7">
          </BreakpointContent>
@@ -218,11 +218,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Frinck/Controllers/Chat/DialogsViewController.swift"
-            timestampString = "563721314.720953"
+            timestampString = "563786864.953633"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "155"
-            endingLineNumber = "155"
+            startingLineNumber = "160"
+            endingLineNumber = "160"
             landmarkName = "getDialogs()"
             landmarkType = "7">
          </BreakpointContent>
@@ -234,11 +234,43 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Frinck/Controllers/Chat/DialogsViewController.swift"
-            timestampString = "563721314.721953"
+            timestampString = "563786864.953822"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "37"
             endingLineNumber = "37"
+            landmarkName = "init(dialog:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Frinck/Controllers/Chat/DialogsViewController.swift"
+            timestampString = "563786864.954017"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "init(dialog:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Frinck/Controllers/Chat/DialogsViewController.swift"
+            timestampString = "563786864.9542201"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
             landmarkName = "init(dialog:)"
             landmarkType = "7">
          </BreakpointContent>

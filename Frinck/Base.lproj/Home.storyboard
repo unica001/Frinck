@@ -1255,14 +1255,20 @@
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <slider opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="50" minValue="0.0" maxValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="MHI-vG-FNh">
-                                            <rect key="frame" x="8" y="33" width="339" height="30"/>
-                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.75" translatesAutoresizingMaskIntoConstraints="NO" id="VeQ-8y-4Cn" customClass="GradientProgressBar" customModule="GradientProgress">
+                                            <rect key="frame" x="10" y="47" width="337" height="20"/>
                                             <constraints>
-                                                <constraint firstAttribute="height" constant="29" id="wQW-lV-eQy"/>
+                                                <constraint firstAttribute="height" constant="20" id="nU1-25-bBj"/>
                                             </constraints>
-                                            <color key="thumbTintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        </slider>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="progressCornerRadius">
+                                                    <real key="value" value="0.0"/>
+                                                </userDefinedRuntimeAttribute>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                    <real key="value" value="10"/>
+                                                </userDefinedRuntimeAttribute>
+                                            </userDefinedRuntimeAttributes>
+                                        </progressView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Level 2" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="an9-nM-TVZ">
                                             <rect key="frame" x="10" y="10" width="197" height="20"/>
                                             <constraints>
@@ -1285,21 +1291,21 @@
                                     </subviews>
                                     <color key="backgroundColor" red="0.92941176470588238" green="0.92941176470588238" blue="0.92941176470588238" alpha="1" colorSpace="calibratedRGB"/>
                                     <constraints>
-                                        <constraint firstItem="MHI-vG-FNh" firstAttribute="top" secondItem="SaT-O0-p3H" secondAttribute="top" constant="33" id="4hK-Xa-lnZ"/>
-                                        <constraint firstItem="3yv-ER-xBL" firstAttribute="top" secondItem="MHI-vG-FNh" secondAttribute="bottom" constant="21" id="6VM-7e-oRR"/>
                                         <constraint firstItem="an9-nM-TVZ" firstAttribute="leading" secondItem="SaT-O0-p3H" secondAttribute="leading" constant="10" id="Ao4-nD-Sth"/>
                                         <constraint firstItem="8AM-KZ-MFg" firstAttribute="leading" secondItem="an9-nM-TVZ" secondAttribute="trailing" constant="8" id="EaL-4E-Lgh"/>
+                                        <constraint firstItem="VeQ-8y-4Cn" firstAttribute="top" secondItem="an9-nM-TVZ" secondAttribute="bottom" constant="17" id="FkA-4G-Pe6"/>
+                                        <constraint firstItem="3yv-ER-xBL" firstAttribute="top" secondItem="VeQ-8y-4Cn" secondAttribute="bottom" constant="16" id="GC2-iu-3it"/>
+                                        <constraint firstAttribute="trailing" secondItem="VeQ-8y-4Cn" secondAttribute="trailing" constant="8" id="GCS-Eq-LZs"/>
                                         <constraint firstAttribute="trailing" secondItem="H2h-vE-OxG" secondAttribute="trailing" id="GD9-Cf-TZP"/>
                                         <constraint firstItem="H2h-vE-OxG" firstAttribute="top" secondItem="SaT-O0-p3H" secondAttribute="top" id="IVr-Lw-JWC"/>
+                                        <constraint firstItem="YeX-Bb-8PQ" firstAttribute="top" secondItem="H2h-vE-OxG" secondAttribute="bottom" constant="10" id="O97-Tx-fS6"/>
                                         <constraint firstAttribute="trailing" secondItem="YeX-Bb-8PQ" secondAttribute="trailing" constant="8" id="Rse-S9-79e"/>
                                         <constraint firstAttribute="trailing" secondItem="8AM-KZ-MFg" secondAttribute="trailing" constant="10" id="Sde-Xw-yZf"/>
                                         <constraint firstItem="8AM-KZ-MFg" firstAttribute="top" secondItem="SaT-O0-p3H" secondAttribute="top" constant="10" id="bYb-T9-fy6"/>
+                                        <constraint firstItem="VeQ-8y-4Cn" firstAttribute="leading" secondItem="SaT-O0-p3H" secondAttribute="leading" constant="10" id="g46-xk-fP5"/>
                                         <constraint firstItem="an9-nM-TVZ" firstAttribute="top" secondItem="SaT-O0-p3H" secondAttribute="top" constant="10" id="g6E-hV-jjE"/>
-                                        <constraint firstItem="MHI-vG-FNh" firstAttribute="leading" secondItem="SaT-O0-p3H" secondAttribute="leading" constant="10" id="geu-Oa-9Mm"/>
-                                        <constraint firstAttribute="trailing" secondItem="MHI-vG-FNh" secondAttribute="trailing" constant="10" id="hrw-Os-JmO"/>
                                         <constraint firstItem="H2h-vE-OxG" firstAttribute="leading" secondItem="SaT-O0-p3H" secondAttribute="leading" id="iS4-uD-QOz"/>
                                         <constraint firstItem="3yv-ER-xBL" firstAttribute="leading" secondItem="SaT-O0-p3H" secondAttribute="leading" constant="10" id="lTt-Tx-pMD"/>
-                                        <constraint firstItem="YeX-Bb-8PQ" firstAttribute="top" secondItem="MHI-vG-FNh" secondAttribute="bottom" constant="23" id="peD-0t-M48"/>
                                     </constraints>
                                 </view>
                                 <connections>
@@ -1329,7 +1335,7 @@
                         <outlet property="levelLabel" destination="an9-nM-TVZ" id="Z4v-8s-Gn5"/>
                         <outlet property="noRecordView" destination="Y9x-CN-QvC" id="l8B-aD-YC6"/>
                         <outlet property="pointLabel" destination="8AM-KZ-MFg" id="qkZ-JG-Soc"/>
-                        <outlet property="pointSlider" destination="MHI-vG-FNh" id="Fba-Rk-TcU"/>
+                        <outlet property="slider" destination="VeQ-8y-4Cn" id="ngC-YS-TUx"/>
                         <segue destination="Phz-ob-hJl" kind="show" identifier="myCheckInSegueIdentifier" id="YsT-sm-uOV"/>
                         <segue destination="qku-wk-dVY" kind="show" identifier="statusSegueIdentifier" id="Kr8-NA-JMx"/>
                     </connections>
@@ -2673,6 +2679,6 @@
         <image name="web" width="19" height="19"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="XKu-YX-95m"/>
+        <segue reference="Kr8-NA-JMx"/>
     </inferredMetricsTieBreakers>
 </document>

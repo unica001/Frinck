@@ -38,4 +38,5 @@ pod 'Firebase/DynamicLinks'
  pod 'Firebase/Messaging'
 pod 'Reachability'
 pod 'FrinckPod_iOS', :git=> 'https://letsnurturegit@bitbucket.org/letsnurturegit/frinckpod_ios.git'
+pod 'GradientProgress'
 end

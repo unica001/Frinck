@@ -115,12 +115,17 @@ class DialogsViewController: UITableViewController, QMChatServiceDelegate, QMCha
             self.getDialogs()
         }
        
+        if dialogs()?.count == 0 {
+            alertController(controller: self, title: "", message:"Please start chat from My Profile on click in Send Message button", okButtonTitle: "Ok", completionHandler: { (value) in
+                
+            })
+            return;
+        }
      
     }
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        
         
         self.tableView.reloadData()
     }

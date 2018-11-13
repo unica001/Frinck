@@ -1,6 +1,7 @@
 
 import UIKit
 import Quickblox
+ import GradientProgress
 
 class ProfileHeaderView: UIViewController {
 
@@ -19,8 +20,9 @@ class ProfileHeaderView: UIViewController {
     @IBOutlet weak var btnNoFollowing: UIButton!
     @IBOutlet weak var btnNoFollower: UIButton!
 //    @IBOutlet weak var imgLevel: UIImageView!
+    @IBOutlet weak var slider: GradientProgressBar!
     @IBOutlet var lblLevel: UILabel!
-    @IBOutlet weak var slider: UISlider!
+    
     
     internal var userId: Int? = nil
     var dictInfo = [String : AnyObject]()
@@ -32,8 +34,8 @@ class ProfileHeaderView: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 //        setUpView()
-        slider.setMaximumTrackImage(#imageLiteral(resourceName: "sliderW"), for: .normal)
-        slider.setMinimumTrackImage(#imageLiteral(resourceName: "slider"), for: .normal)
+//        slider.setMaximumTrackImage(#imageLiteral(resourceName: "sliderW"), for: .normal)
+//        slider.setMinimumTrackImage(#imageLiteral(resourceName: "slider"), for: .normal)
     }
 
     override func viewWillAppear(_ animated: Bool) {
@@ -140,10 +142,8 @@ class ProfileHeaderView: UIViewController {
         
         let customerLevel = dictCustomerLevel["CustomerLevel"] as! Int
         let totalLevel = dictCustomerLevel["totalLevel"] as! Int
-//        let avg = customerLevel/totalLevel * 100
-        slider.minimumValue = 0
-        slider.maximumValue = Float(totalLevel)
-        slider.value = Float(customerLevel)
+       let avg = customerLevel/totalLevel * 100
+        slider.progress = Float(avg) + 0.5
     }
     
     func saveImageInDirectory(uploadImage : UIImage) -> URL {

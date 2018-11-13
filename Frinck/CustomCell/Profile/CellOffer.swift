@@ -27,6 +27,19 @@ class CellOffer: UICollectionViewCell {
         let url = URL(string: urlStrings!)
         imgOffer.sd_setImage(with:url , placeholderImage: UIImage(named : "placeHolder"), options:SDWebImageOptions.cacheMemoryOnly, completed: nil)
         lblOffer.text = dictInfo.title
+        
+        // Expire date
+        
+//        let dateFormate1 = DateFormatter()
+//        dateFormate1.dateFormat = "yyyy-dd-mm"
+//
+//        let dateString : String = (dictInfo.validFrom)!
+//        
+//        let date  =  dateFormate1.date(from: dateString)!
+//        
+//        let dateFormate = DateFormatter()
+//        dateFormate.dateFormat = "dd MMM yyyy"
+        lblExpire.text =  dictInfo.validFrom
     }
     
 }
