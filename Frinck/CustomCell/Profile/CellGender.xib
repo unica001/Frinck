@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Montserrat-Bold.otf">
+            <string>Montserrat-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="CellGender" customModule="Frinck" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GENDER" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dNa-Nb-qKy">
+                        <rect key="frame" x="16" y="12" width="188" height="21"/>
+                        <fontDescription key="fontDescription" name="Montserrat-Bold" family="Montserrat" pointSize="15"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IQButtonBarArrowDown.png" translatesAutoresizingMaskIntoConstraints="NO" id="mGI-va-w5Z">
+                        <rect key="frame" x="264" y="11" width="46" height="22"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="46" id="ndv-MX-K2E"/>
+                        </constraints>
+                    </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nzQ-Ai-IgD">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="mGI-va-w5Z" firstAttribute="leading" secondItem="dNa-Nb-qKy" secondAttribute="trailing" constant="60" id="4iD-54-qSL"/>
+                    <constraint firstItem="dNa-Nb-qKy" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="4x1-IK-dqH"/>
+                    <constraint firstItem="dNa-Nb-qKy" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="12" id="7de-Lx-rAG"/>
+                    <constraint firstAttribute="trailing" secondItem="nzQ-Ai-IgD" secondAttribute="trailing" id="HLY-la-1LU"/>
+                    <constraint firstItem="nzQ-Ai-IgD" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="Qar-Gd-J63"/>
+                    <constraint firstAttribute="trailing" secondItem="mGI-va-w5Z" secondAttribute="trailing" constant="10" id="Vkz-jI-du7"/>
+                    <constraint firstItem="mGI-va-w5Z" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="11" id="iBt-Kb-MiN"/>
+                    <constraint firstAttribute="bottom" secondItem="mGI-va-w5Z" secondAttribute="bottom" constant="10.5" id="jjo-HJ-jKI"/>
+                    <constraint firstAttribute="bottom" secondItem="nzQ-Ai-IgD" secondAttribute="bottom" constant="-0.5" id="kPT-uB-nj8"/>
+                    <constraint firstAttribute="bottom" secondItem="dNa-Nb-qKy" secondAttribute="bottom" constant="10.5" id="lV7-zu-2F0"/>
+                    <constraint firstItem="nzQ-Ai-IgD" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="t80-LW-TPQ"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="btnGender" destination="nzQ-Ai-IgD" id="wWv-YW-jOv"/>
+                <outlet property="lblGender" destination="dNa-Nb-qKy" id="eZp-OD-duf"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="IQButtonBarArrowDown.png" width="21" height="12"/>
+    </resources>
+</document>

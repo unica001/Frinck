@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Montserrat-Regular.otf">
+            <string>Montserrat-Regular</string>
+        </array>
+        <array key="Montserrat-SemiBold.otf">
+            <string>Montserrat-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="90" id="KGk-i7-Jjw" customClass="CheckInStatusCell" customModule="Frinck" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="85"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="84.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="8G2-Ws-5jn">
+                        <rect key="frame" x="10" y="10" width="40" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="40" id="Jym-JT-ozA"/>
+                            <constraint firstAttribute="height" constant="40" id="csl-ho-79G"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4WS-r1-FS4">
+                        <rect key="frame" x="78" y="10" width="230" height="40"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="zjI-zM-WcR"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Montserrat-SemiBold" family="Montserrat" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="timer" translatesAutoresizingMaskIntoConstraints="NO" id="cYe-xN-FUA">
+                        <rect key="frame" x="193" y="55" width="20" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="3JK-e9-oEa"/>
+                            <constraint firstAttribute="width" constant="20" id="X3c-I6-5wA"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" highlighted="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cto-om-4Gr">
+                        <rect key="frame" x="221" y="55" width="87" height="20"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="SLl-fZ-1Ol"/>
+                            <constraint firstAttribute="width" constant="87" id="g6Q-kf-a0c"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="14"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="8G2-Ws-5jn" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="7yQ-bu-MHa"/>
+                    <constraint firstItem="4WS-r1-FS4" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="Ctx-s9-MwC"/>
+                    <constraint firstItem="cto-om-4Gr" firstAttribute="top" secondItem="4WS-r1-FS4" secondAttribute="bottom" constant="5" id="Hd8-rK-4WF"/>
+                    <constraint firstItem="4WS-r1-FS4" firstAttribute="leading" secondItem="8G2-Ws-5jn" secondAttribute="trailing" constant="28" id="I38-ZI-SPN"/>
+                    <constraint firstAttribute="trailing" secondItem="cto-om-4Gr" secondAttribute="trailing" constant="12" id="Oba-c7-PNy"/>
+                    <constraint firstAttribute="trailing" secondItem="4WS-r1-FS4" secondAttribute="trailing" constant="12" id="cVv-ao-UAJ"/>
+                    <constraint firstItem="cYe-xN-FUA" firstAttribute="top" secondItem="4WS-r1-FS4" secondAttribute="bottom" constant="5" id="eOd-OX-SUL"/>
+                    <constraint firstItem="8G2-Ws-5jn" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="lA8-ib-b5X"/>
+                    <constraint firstItem="cto-om-4Gr" firstAttribute="leading" secondItem="cYe-xN-FUA" secondAttribute="trailing" constant="8" id="vNX-Hz-12n"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="checkMarkImage" destination="8G2-Ws-5jn" id="pAA-H2-pHp"/>
+                <outlet property="clockImage" destination="cYe-xN-FUA" id="KI1-9B-dvC"/>
+                <outlet property="textLable" destination="4WS-r1-FS4" id="q5Z-dc-rM1"/>
+                <outlet property="timeLable" destination="cto-om-4Gr" id="oaj-pg-ffA"/>
+            </connections>
+            <point key="canvasLocation" x="42" y="83.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="timer" width="16" height="16"/>
+    </resources>
+</document>

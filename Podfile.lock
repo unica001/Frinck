@@ -1,0 +1,306 @@
+PODS:
+  - ActionSheetPicker-3.0 (2.3.0)
+  - AWSAuthCore (2.6.25):
+    - AWSCore (= 2.6.25)
+  - AWSCognito (2.6.25):
+    - AWSCore (= 2.6.25)
+  - AWSCore (2.6.25)
+  - AWSMobileClient (2.6.25):
+    - AWSAuthCore (= 2.6.25)
+  - AWSS3 (2.6.25):
+    - AWSCore (= 2.6.25)
+  - Bolts (1.9.0):
+    - Bolts/AppLinks (= 1.9.0)
+    - Bolts/Tasks (= 1.9.0)
+  - Bolts/AppLinks (1.9.0):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.9.0)
+  - CropViewController (2.3.6)
+  - DZNEmptyDataSet (1.8.1)
+  - FacebookCore (0.3.1):
+    - Bolts (~> 1.8)
+    - FBSDKCoreKit (~> 4.33)
+  - FacebookLogin (0.3.1):
+    - Bolts (~> 1.8)
+    - FacebookCore (~> 0.3.1)
+    - FBSDKCoreKit (~> 4.33)
+    - FBSDKLoginKit (~> 4.33)
+  - FAQView (0.5.0)
+  - FBSDKCoreKit (4.34.0):
+    - Bolts (~> 1.7)
+  - FBSDKLoginKit (4.34.0):
+    - FBSDKCoreKit
+  - FFCircularProgressView (0.5)
+  - Firebase/Core (5.4.1):
+    - Firebase/CoreOnly
+    - FirebaseAnalytics (= 5.0.1)
+  - Firebase/CoreOnly (5.4.1):
+    - FirebaseCore (= 5.0.6)
+  - Firebase/DynamicLinks (5.4.1):
+    - Firebase/Core
+    - FirebaseDynamicLinks (= 3.0.1)
+  - Firebase/Messaging (5.4.1):
+    - Firebase/CoreOnly
+    - FirebaseMessaging (= 3.0.3)
+  - FirebaseAnalytics (5.0.1):
+    - FirebaseCore (~> 5.0)
+    - FirebaseInstanceID (~> 3.0)
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
+    - nanopb (~> 0.3)
+  - FirebaseCore (5.0.6):
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
+  - FirebaseDynamicLinks (3.0.1):
+    - FirebaseAnalytics (~> 5.0)
+  - FirebaseInstanceID (3.1.1):
+    - FirebaseCore (~> 5.0)
+  - FirebaseMessaging (3.0.3):
+    - FirebaseCore (~> 5.0)
+    - FirebaseInstanceID (~> 3.0)
+    - GoogleToolboxForMac/Logger (~> 2.1)
+    - Protobuf (~> 3.1)
+  - FLAnimatedImage (1.0.12)
+  - FrinckPod_iOS (0.1.0)
+  - GoogleSignIn (4.1.2):
+    - "GoogleToolboxForMac/NSDictionary+URLArguments (~> 2.1)"
+    - "GoogleToolboxForMac/NSString+URLArguments (~> 2.1)"
+    - GTMOAuth2 (~> 1.0)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - GoogleToolboxForMac/DebugUtils (2.1.4):
+    - GoogleToolboxForMac/Defines (= 2.1.4)
+  - GoogleToolboxForMac/Defines (2.1.4)
+  - GoogleToolboxForMac/Logger (2.1.4):
+    - GoogleToolboxForMac/Defines (= 2.1.4)
+  - "GoogleToolboxForMac/NSData+zlib (2.1.4)":
+    - GoogleToolboxForMac/Defines (= 2.1.4)
+  - "GoogleToolboxForMac/NSDictionary+URLArguments (2.1.4)":
+    - GoogleToolboxForMac/DebugUtils (= 2.1.4)
+    - GoogleToolboxForMac/Defines (= 2.1.4)
+    - "GoogleToolboxForMac/NSString+URLArguments (= 2.1.4)"
+  - "GoogleToolboxForMac/NSString+URLArguments (2.1.4)"
+  - GTMOAuth2 (1.1.6):
+    - GTMSessionFetcher (~> 1.1)
+  - GTMSessionFetcher (1.1.15):
+    - GTMSessionFetcher/Full (= 1.1.15)
+  - GTMSessionFetcher/Core (1.1.15)
+  - GTMSessionFetcher/Full (1.1.15):
+    - GTMSessionFetcher/Core (= 1.1.15)
+  - IQKeyboardManagerSwift (5.0.0)
+  - MoEngage-iOS-SDK (4.2.1)
+  - nanopb (0.3.8):
+    - nanopb/decode (= 0.3.8)
+    - nanopb/encode (= 0.3.8)
+  - nanopb/decode (0.3.8)
+  - nanopb/encode (0.3.8)
+  - ObjectMapper (3.3.0)
+  - PINCache (2.3)
+  - PINRemoteImage (2.1.4):
+    - PINRemoteImage/FLAnimatedImage (= 2.1.4)
+  - PINRemoteImage/Core (2.1.4):
+    - PINCache (>= 2.1)
+  - PINRemoteImage/FLAnimatedImage (2.1.4):
+    - FLAnimatedImage (>= 1.0)
+    - PINRemoteImage/Core
+  - Protobuf (3.6.0)
+  - QMChatViewController (0.6.6):
+    - FFCircularProgressView
+    - QMChatViewController/Categories (= 0.6.6)
+    - QMChatViewController/Protocols (= 0.6.6)
+    - QMChatViewController/QMChatDataSource (= 0.6.6)
+    - QMChatViewController/QMChatLocationSnapshotter (= 0.6.6)
+    - QMChatViewController/Utils (= 0.6.6)
+    - QMChatViewController/Views (= 0.6.6)
+    - QuickBlox
+    - SDWebImage
+    - TTTAttributedLabel
+  - QMChatViewController/Categories (0.6.6):
+    - FFCircularProgressView
+    - QuickBlox
+    - SDWebImage
+    - TTTAttributedLabel
+  - QMChatViewController/Protocols (0.6.6):
+    - FFCircularProgressView
+    - QuickBlox
+    - SDWebImage
+    - TTTAttributedLabel
+  - QMChatViewController/QMChatDataSource (0.6.6):
+    - FFCircularProgressView
+    - QMChatViewController/Utils
+    - QuickBlox
+    - SDWebImage
+    - TTTAttributedLabel
+  - QMChatViewController/QMChatLocationSnapshotter (0.6.6):
+    - FFCircularProgressView
+    - QMChatViewController/Utils
+    - QuickBlox
+    - SDWebImage
+    - TTTAttributedLabel
+  - QMChatViewController/Utils (0.6.6):
+    - FFCircularProgressView
+    - QMChatViewController/Categories
+    - QuickBlox
+    - SDWebImage
+    - TTTAttributedLabel
+  - QMChatViewController/Views (0.6.6):
+    - FFCircularProgressView
+    - QMChatViewController/Categories
+    - QMChatViewController/Protocols
+    - QMChatViewController/Utils
+    - QuickBlox
+    - SDWebImage
+    - TTTAttributedLabel
+  - QMServices (0.6.2):
+    - Bolts (>= 1.9.0)
+    - QuickBlox (>= 2.17)
+  - QuickBlox (2.17.1)
+  - razorpay-pod (1.0.18)
+  - Reachability (3.2)
+  - SDWebImage (4.4.2):
+    - SDWebImage/Core (= 4.4.2)
+  - SDWebImage/Core (4.4.2)
+  - SearchEmojiOnString (1.1.0)
+  - SJSegmentedScrollView (1.3.8)
+  - SVProgressHUD (1.1.3)
+  - SwiftGifOrigin (1.6.1)
+  - TPKeyboardAvoiding (1.3.2)
+  - TTTAttributedLabel (2.0.0)
+
+DEPENDENCIES:
+  - ActionSheetPicker-3.0
+  - AWSCognito
+  - AWSMobileClient
+  - AWSS3
+  - CropViewController
+  - DZNEmptyDataSet
+  - FacebookCore
+  - FacebookLogin
+  - FAQView (~> 0.5.0)
+  - Firebase/Core
+  - Firebase/DynamicLinks
+  - Firebase/Messaging
+  - FLAnimatedImage
+  - "FrinckPod_iOS (from `https://letsnurturegit@bitbucket.org/letsnurturegit/frinckpod_ios.git`)"
+  - GoogleSignIn
+  - IQKeyboardManagerSwift (= 5.0.0)
+  - MoEngage-iOS-SDK
+  - ObjectMapper
+  - PINRemoteImage
+  - QMChatViewController
+  - QMServices
+  - QuickBlox
+  - razorpay-pod (= 1.0.18)
+  - Reachability
+  - SDWebImage (~> 4.0)
+  - SearchEmojiOnString
+  - SJSegmentedScrollView (= 1.3.8)
+  - SVProgressHUD (~> 1.1.3)
+  - SwiftGifOrigin
+  - TPKeyboardAvoiding
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - ActionSheetPicker-3.0
+    - AWSAuthCore
+    - AWSCognito
+    - AWSCore
+    - AWSMobileClient
+    - AWSS3
+    - Bolts
+    - CropViewController
+    - DZNEmptyDataSet
+    - FacebookCore
+    - FacebookLogin
+    - FAQView
+    - FBSDKCoreKit
+    - FBSDKLoginKit
+    - FFCircularProgressView
+    - Firebase
+    - FirebaseAnalytics
+    - FirebaseCore
+    - FirebaseDynamicLinks
+    - FirebaseInstanceID
+    - FirebaseMessaging
+    - FLAnimatedImage
+    - GoogleSignIn
+    - GoogleToolboxForMac
+    - GTMOAuth2
+    - GTMSessionFetcher
+    - IQKeyboardManagerSwift
+    - MoEngage-iOS-SDK
+    - nanopb
+    - ObjectMapper
+    - PINCache
+    - PINRemoteImage
+    - Protobuf
+    - QMChatViewController
+    - QMServices
+    - QuickBlox
+    - razorpay-pod
+    - Reachability
+    - SDWebImage
+    - SearchEmojiOnString
+    - SJSegmentedScrollView
+    - SVProgressHUD
+    - SwiftGifOrigin
+    - TPKeyboardAvoiding
+    - TTTAttributedLabel
+
+EXTERNAL SOURCES:
+  FrinckPod_iOS:
+    :git: "https://letsnurturegit@bitbucket.org/letsnurturegit/frinckpod_ios.git"
+
+CHECKOUT OPTIONS:
+  FrinckPod_iOS:
+    :commit: 2b5c8d36db3f1877a4b5a19b1645d44c4d1a6ab8
+    :git: "https://letsnurturegit@bitbucket.org/letsnurturegit/frinckpod_ios.git"
+
+SPEC CHECKSUMS:
+  ActionSheetPicker-3.0: eef157d75e151f255c5333d26656c7fbfe905a51
+  AWSAuthCore: ee797576ca94ef45b48cbf40bb113944791a09ab
+  AWSCognito: c86cc3a4b1c6e2250dee489c17010662d3e4b3b5
+  AWSCore: 93ac57c361f6ff9c0749adf9404c4a1a1ecdaa2b
+  AWSMobileClient: 89f45bf39e73dedc2c9ce673146167e2009e8200
+  AWSS3: 0614ff4e0f0d11942322b5a15c30927a93fe35db
+  Bolts: ac6567323eac61e203f6a9763667d0f711be34c8
+  CropViewController: e6d4bd512d15a1709e9ddf71fe7d98ffd05dda0f
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  FacebookCore: 33078ef1d7d76b73f7e8c990dca7d3ea6db8d22f
+  FacebookLogin: 6f15bf4fefd7a8865abbfa8fcd7f3dfd87aa275f
+  FAQView: 3be1ca502c3ef1f789bd1c1611ec23458f63fad2
+  FBSDKCoreKit: 0ff57f093b85c8c9d5aba697d3edf68a8960ce78
+  FBSDKLoginKit: 8c78f57a145afb756e4755e69195ebe08a42466e
+  FFCircularProgressView: 683a4ab1e1bd613246a3dffa61503ffdebcde8d8
+  Firebase: 355bd535bfdacaa82a7fe8d9784115edefd6fc03
+  FirebaseAnalytics: b3628aea54c50464c32c393fb2ea032566e7ecc2
+  FirebaseCore: 4c28e3b9708ba48a765e76515f913a71596eb5dd
+  FirebaseDynamicLinks: d624a7adc81a8fd70d52be5a6a47a2bc0644b923
+  FirebaseInstanceID: f3f0657372592ecdfdfe2cac604a5a75758376a6
+  FirebaseMessaging: f43eb0c0e1da096e659de6f713038e74862a62cd
+  FLAnimatedImage: 4a0b56255d9b05f18b6dd7ee06871be5d3b89e31
+  FrinckPod_iOS: c0696928d82914ee0a19dc47757b03a7b7c07d6e
+  GoogleSignIn: d9ef55b10f0aa401a5de2747f59b725e4b9732ac
+  GoogleToolboxForMac: 91c824d21e85b31c2aae9bb011c5027c9b4e738f
+  GTMOAuth2: c77fe325e4acd453837e72d91e3b5f13116857b2
+  GTMSessionFetcher: 5fa5b80fd20e439ef5f545fb2cb3ca6c6714caa2
+  IQKeyboardManagerSwift: 3f340202ebe1a7076279b9b9b3c817243ddb3aab
+  MoEngage-iOS-SDK: 8f8b6e51f16855cc50a89ba5ed83bd571f6b9c8b
+  nanopb: 5601e6bca2dbf1ed831b519092ec110f66982ca3
+  ObjectMapper: b612bf8c8e99c4dc0bb6013a51f7c27966ed5da9
+  PINCache: ce36ed282031b92fc7733ffe831f474ff80fddc2
+  PINRemoteImage: 4ac4011c5caefd6befd99758e09becede05d3226
+  Protobuf: 0fc0ad8bec688b2a3017a139953e01374fedbd5f
+  QMChatViewController: 43e22929d4abbdb88cc5db5b25c54f13dbfe8373
+  QMServices: 96ee12749db0497cfb6543db9c4b11e8f913e2d7
+  QuickBlox: b8c327b61db8382880bd41185703acf228105a1c
+  razorpay-pod: 6303688cc069f872a1250b600dcade5a0f11de3a
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  SDWebImage: 624d6e296c69b244bcede364c72ae0430ac14681
+  SearchEmojiOnString: 7344970449603396555d058a0dc297b5471bafa7
+  SJSegmentedScrollView: 2308af5e7dbbbcbf7042efd47128f162186ed078
+  SVProgressHUD: 748080e4f36e603f6c02aec292664239df5279c1
+  SwiftGifOrigin: d6679d3ebe9df2e049a84bc52582635107b581f6
+  TPKeyboardAvoiding: cb69d5ddbe90ce0170e4bc2db1e5e41d4a3ad9a4
+  TTTAttributedLabel: 8cffe8e127e4e82ff3af1e5386d4cd0ad000b656
+
+PODFILE CHECKSUM: 610b2b3a8396c9ca57a78f8ea783264ba91b3773
+
+COCOAPODS: 1.5.0

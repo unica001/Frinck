@@ -1,0 +1,6 @@
+framework module FrinckPod_iOS {
+  umbrella header "FrinckPod_iOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

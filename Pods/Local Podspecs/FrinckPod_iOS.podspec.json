@@ -1,0 +1,22 @@
+{
+  "name": "FrinckPod_iOS",
+  "version": "0.1.0",
+  "summary": "Inital Commit to BitBucket",
+  "description": "TODO: FrinckPod is used to detect nearby beacons and get information of it.",
+  "homepage": "https://bitbucket.org/letsnurturegit/frinckpod_ios/src",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "letsnurturegit": "android.letsnurture@gmail.com"
+  },
+  "source": {
+    "git": "https://letsnurturegit@bitbucket.org/letsnurturegit/frinckpod_ios.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "FrinckPod_iOS/Classes/**/*"
+}

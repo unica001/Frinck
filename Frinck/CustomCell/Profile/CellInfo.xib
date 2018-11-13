@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Montserrat-Regular.otf">
+            <string>Montserrat-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="CellInfo" customModule="Frinck" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DOB" translatesAutoresizingMaskIntoConstraints="NO" id="KYy-hP-rVg">
+                        <rect key="frame" x="16" y="7" width="33" height="28"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="28" id="Ptu-e0-4pj"/>
+                            <constraint firstAttribute="width" constant="33" id="eXq-iF-eg0"/>
+                        </constraints>
+                    </imageView>
+                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kDs-c7-xDV">
+                        <rect key="frame" x="57" y="7" width="240" height="30"/>
+                        <nil key="textColor"/>
+                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="15"/>
+                        <textInputTraits key="textInputTraits"/>
+                    </textField>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zaI-nm-beg">
+                        <rect key="frame" x="0.0" y="43" width="320" height="0.0"/>
+                        <color key="backgroundColor" red="0.8624446831" green="0.8624446831" blue="0.8624446831" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" id="Zzh-HY-AE8"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="kDs-c7-xDV" secondAttribute="trailing" constant="23" id="3fa-SC-Kml"/>
+                    <constraint firstItem="zaI-nm-beg" firstAttribute="top" secondItem="kDs-c7-xDV" secondAttribute="bottom" constant="6" id="H6R-RL-zcD"/>
+                    <constraint firstAttribute="trailing" secondItem="zaI-nm-beg" secondAttribute="trailing" id="Ien-cY-6xV"/>
+                    <constraint firstItem="zaI-nm-beg" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="S4h-i3-h7z"/>
+                    <constraint firstAttribute="bottom" secondItem="zaI-nm-beg" secondAttribute="bottom" constant="1" id="Saa-R7-3DU"/>
+                    <constraint firstItem="KYy-hP-rVg" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="U7Z-UX-kL5"/>
+                    <constraint firstItem="kDs-c7-xDV" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="7" id="bQ7-9t-i70"/>
+                    <constraint firstItem="KYy-hP-rVg" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="lLd-FM-yEV"/>
+                    <constraint firstItem="kDs-c7-xDV" firstAttribute="leading" secondItem="KYy-hP-rVg" secondAttribute="trailing" constant="8" id="s28-j8-cGi"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="imgInfo" destination="KYy-hP-rVg" id="ilY-8d-x9z"/>
+                <outlet property="txtInfo" destination="kDs-c7-xDV" id="TsU-ZJ-Fhc"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="DOB" width="15" height="16"/>
+    </resources>
+</document>
