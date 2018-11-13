@@ -87,6 +87,9 @@ class CheckInViewController: UIViewController {
         }
     }
     
+    @IBAction func tapBack(_ sender: Any) {
+        self.navigationController?.popViewController(animated: true)
+    }
     //MARK: - API Call
     
     func getStoreList()
