@@ -1367,37 +1367,50 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="v2X-gj-ocG">
                                 <rect key="frame" x="0.0" y="64" width="375" height="554"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Ja-Rv-vRb">
-                                        <rect key="frame" x="10" y="282" width="355" height="262"/>
-                                        <fontDescription key="fontDescription" name="SFUIText-Bold" family="SF UI Text" pointSize="24"/>
-                                        <state key="normal" title="OFFLINE">
-                                            <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
-                                        </state>
-                                        <connections>
-                                            <segue destination="PBo-NF-99x" kind="show" id="j4J-bx-05S"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s4q-jO-02J">
-                                        <rect key="frame" x="10" y="10" width="355" height="262"/>
-                                        <fontDescription key="fontDescription" name="SFUIText-Bold" family="SF UI Text" pointSize="24"/>
-                                        <state key="normal" title="ONLINE">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Online" translatesAutoresizingMaskIntoConstraints="NO" id="i7K-Cu-Ks3">
+                                        <rect key="frame" x="0.0" y="10" width="375" height="262"/>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s4q-jO-02J">
+                                        <rect key="frame" x="0.0" y="10" width="375" height="262"/>
+                                        <state key="normal">
                                             <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                         </state>
                                         <connections>
                                             <segue destination="UcE-gD-AjR" kind="show" id="BEt-rD-QTO"/>
                                         </connections>
                                     </button>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Offline-1" translatesAutoresizingMaskIntoConstraints="NO" id="CcN-G3-Ucy">
+                                        <rect key="frame" x="0.0" y="282" width="375" height="262"/>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Ja-Rv-vRb">
+                                        <rect key="frame" x="0.0" y="282" width="375" height="262"/>
+                                        <fontDescription key="fontDescription" name="SFUIText-Bold" family="SF UI Text" pointSize="24"/>
+                                        <state key="normal">
+                                            <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="PBo-NF-99x" kind="show" id="j4J-bx-05S"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstItem="s4q-jO-02J" firstAttribute="height" secondItem="v2X-gj-ocG" secondAttribute="height" multiplier="262:554" id="8hQ-4C-ZwO"/>
+                                    <constraint firstItem="i7K-Cu-Ks3" firstAttribute="leading" secondItem="s4q-jO-02J" secondAttribute="leading" id="D5j-Jb-e3b"/>
+                                    <constraint firstItem="i7K-Cu-Ks3" firstAttribute="bottom" secondItem="s4q-jO-02J" secondAttribute="bottom" id="EbA-7n-vw1"/>
+                                    <constraint firstItem="i7K-Cu-Ks3" firstAttribute="top" secondItem="s4q-jO-02J" secondAttribute="top" id="MmQ-aH-efc"/>
                                     <constraint firstItem="5Ja-Rv-vRb" firstAttribute="top" secondItem="s4q-jO-02J" secondAttribute="bottom" constant="10" id="NxB-ky-y9R"/>
                                     <constraint firstAttribute="bottom" secondItem="5Ja-Rv-vRb" secondAttribute="bottom" constant="10" id="Taz-JB-r1y"/>
-                                    <constraint firstAttribute="trailing" secondItem="s4q-jO-02J" secondAttribute="trailing" constant="10" id="dE7-gd-R1Q"/>
-                                    <constraint firstItem="5Ja-Rv-vRb" firstAttribute="leading" secondItem="v2X-gj-ocG" secondAttribute="leading" constant="10" id="ewg-EM-gSI"/>
+                                    <constraint firstItem="CcN-G3-Ucy" firstAttribute="top" secondItem="5Ja-Rv-vRb" secondAttribute="top" id="VUf-GJ-HX1"/>
+                                    <constraint firstItem="i7K-Cu-Ks3" firstAttribute="trailing" secondItem="s4q-jO-02J" secondAttribute="trailing" id="cBq-j4-liX"/>
+                                    <constraint firstAttribute="trailing" secondItem="s4q-jO-02J" secondAttribute="trailing" id="dE7-gd-R1Q"/>
+                                    <constraint firstItem="5Ja-Rv-vRb" firstAttribute="leading" secondItem="v2X-gj-ocG" secondAttribute="leading" id="ewg-EM-gSI"/>
                                     <constraint firstItem="s4q-jO-02J" firstAttribute="top" secondItem="v2X-gj-ocG" secondAttribute="top" constant="10" id="nDb-0c-DiS"/>
-                                    <constraint firstAttribute="trailing" secondItem="5Ja-Rv-vRb" secondAttribute="trailing" constant="10" id="q2U-lh-V3d"/>
-                                    <constraint firstItem="s4q-jO-02J" firstAttribute="leading" secondItem="v2X-gj-ocG" secondAttribute="leading" constant="10" id="rAb-gw-hQd"/>
+                                    <constraint firstAttribute="trailing" secondItem="5Ja-Rv-vRb" secondAttribute="trailing" id="q2U-lh-V3d"/>
+                                    <constraint firstItem="CcN-G3-Ucy" firstAttribute="trailing" secondItem="5Ja-Rv-vRb" secondAttribute="trailing" id="r4p-vK-07R"/>
+                                    <constraint firstItem="s4q-jO-02J" firstAttribute="leading" secondItem="v2X-gj-ocG" secondAttribute="leading" id="rAb-gw-hQd"/>
+                                    <constraint firstItem="CcN-G3-Ucy" firstAttribute="leading" secondItem="5Ja-Rv-vRb" secondAttribute="leading" id="ruO-NK-0Z9"/>
+                                    <constraint firstItem="CcN-G3-Ucy" firstAttribute="bottom" secondItem="5Ja-Rv-vRb" secondAttribute="bottom" id="x24-Ph-N52"/>
                                 </constraints>
                             </view>
                         </subviews>
@@ -1440,7 +1453,7 @@
         <scene sceneID="r6F-rL-9Ij">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="aQc-ty-E6U" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="EARN" image="checkin" selectedImage="checkinred" id="htr-mi-ZaJ"/>
+                    <tabBarItem key="tabBarItem" title="EARN" image="earn" selectedImage="earn_red" id="htr-mi-ZaJ"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="dND-gg-JYb">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
@@ -1901,6 +1914,7 @@
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="TUM-Hd-Mfj">
                                                     <rect key="frame" x="39" y="10" width="70" height="70"/>
+                                                    <color key="backgroundColor" red="0.69019607839999997" green="0.16078431369999999" blue="0.12941176469999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="70" id="PsD-C4-yRD"/>
                                                         <constraint firstAttribute="height" constant="70" id="u4w-sJ-luQ"/>
@@ -2809,14 +2823,16 @@
     <resources>
         <image name="Edit-1" width="11" height="11"/>
         <image name="Frincklogo" width="109" height="30"/>
+        <image name="Offline-1" width="240" height="180"/>
+        <image name="Online" width="240" height="180"/>
         <image name="add" width="25" height="25"/>
         <image name="back" width="30" height="28"/>
         <image name="brand-stories" width="100" height="100"/>
         <image name="camera" width="20" height="20"/>
         <image name="cameraround" width="20" height="20"/>
-        <image name="checkin" width="25" height="25"/>
-        <image name="checkinred" width="25" height="25"/>
         <image name="dot" width="25" height="25"/>
+        <image name="earn" width="25" height="25"/>
+        <image name="earn_red" width="25" height="25"/>
         <image name="fav" width="25" height="25"/>
         <image name="favred" width="25" height="25"/>
         <image name="heartunfill" width="17" height="16"/>
@@ -2838,6 +2854,6 @@
         <image name="web" width="19" height="19"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Kr8-NA-JMx"/>
+        <segue reference="XKu-YX-95m"/>
     </inferredMetricsTieBreakers>
 </document>

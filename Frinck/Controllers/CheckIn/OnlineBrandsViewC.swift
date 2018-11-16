@@ -50,7 +50,7 @@ extension OnlineBrandsViewC: UICollectionViewDelegate, UICollectionViewDataSourc
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell
     {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "onlineBrandCell", for: indexPath)
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "onlineCell", for: indexPath)
         return cell
     }
     
