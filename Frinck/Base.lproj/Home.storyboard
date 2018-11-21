@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="WhI-dI-Jgg">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="WhI-dI-Jgg">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
-        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
-        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
-        <capability name="Navigation items with more than one left or right bar item" minToolsVersion="7.0"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -85,7 +81,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="RGc-gL-DI2">
-                                                    <rect key="frame" x="57.5" y="10" width="70" height="70"/>
+                                                    <rect key="frame" x="57.5" y="30" width="70" height="70"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="70" id="FvP-Kj-fAf"/>
                                                         <constraint firstAttribute="width" constant="70" id="eWD-h2-36l"/>
@@ -512,14 +508,14 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="placeHolder" translatesAutoresizingMaskIntoConstraints="NO" id="dme-Dy-gDm">
-                                                    <rect key="frame" x="10" y="10" width="80" height="80"/>
+                                                    <rect key="frame" x="10" y="30" width="80" height="80"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="80" id="7AF-wC-rB5"/>
                                                         <constraint firstAttribute="width" constant="80" id="DlP-I9-OM1"/>
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iXu-b2-Szw">
-                                                    <rect key="frame" x="5" y="95" width="90" height="35"/>
+                                                    <rect key="frame" x="5" y="115" width="90" height="15"/>
                                                     <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="14"/>
                                                     <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                                     <nil key="highlightedColor"/>
@@ -1122,7 +1118,7 @@
             </objects>
             <point key="canvasLocation" x="3074.4000000000001" y="-319.79010494752629"/>
         </scene>
-        <!--Check In-->
+        <!--Offline Shopping-->
         <scene sceneID="gKb-2a-1Gt">
             <objects>
                 <viewController id="PBo-NF-99x" customClass="CheckInViewController" customModule="Frinck" customModuleProvider="target" sceneMemberID="viewController">
@@ -1158,7 +1154,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U82-Nm-0Yl">
-                                        <rect key="frame" x="78.5" y="208" width="197" height="30"/>
+                                        <rect key="frame" x="79" y="208" width="197" height="30"/>
                                         <color key="backgroundColor" red="0.90980392160000001" green="0.0" blue="0.039215686270000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="30" id="VSv-f5-v3Q"/>
@@ -1331,7 +1327,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="rNh-Wp-M3D"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Check In" id="GVt-id-lhT">
+                    <navigationItem key="navigationItem" title="Offline Shopping" id="GVt-id-lhT">
                         <barButtonItem key="leftBarButtonItem" image="back" id="JFS-Dh-s00">
                             <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <connections>
@@ -1887,7 +1883,7 @@
             </objects>
             <point key="canvasLocation" x="4163" y="-1102"/>
         </scene>
-        <!--ONLINE-->
+        <!--Online Shopping-->
         <scene sceneID="Bn2-gJ-76m">
             <objects>
                 <viewController storyboardIdentifier="OnlineBrandsViewC" id="UcE-gD-AjR" customClass="OnlineBrandsViewC" customModule="Frinck" customModuleProvider="target" sceneMemberID="viewController">
@@ -1912,12 +1908,12 @@
                                             <rect key="frame" x="0.0" y="0.0" width="148" height="100"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="TUM-Hd-Mfj">
-                                                    <rect key="frame" x="39" y="10" width="70" height="70"/>
-                                                    <color key="backgroundColor" red="0.69019607839999997" green="0.16078431369999999" blue="0.12941176469999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <imageView userInteractionEnabled="NO" tag="10" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="TUM-Hd-Mfj">
+                                                    <rect key="frame" x="29" y="10" width="89" height="78"/>
+                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="width" constant="70" id="PsD-C4-yRD"/>
-                                                        <constraint firstAttribute="height" constant="70" id="u4w-sJ-luQ"/>
+                                                        <constraint firstAttribute="width" constant="89" id="PsD-C4-yRD"/>
+                                                        <constraint firstAttribute="height" constant="78" id="u4w-sJ-luQ"/>
                                                     </constraints>
                                                     <userDefinedRuntimeAttributes>
                                                         <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -1957,7 +1953,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="kTK-jW-U3v"/>
                     </view>
-                    <navigationItem key="navigationItem" title="ONLINE" id="ZxG-Ve-V5c">
+                    <navigationItem key="navigationItem" title="Online Shopping" id="ZxG-Ve-V5c">
                         <barButtonItem key="leftBarButtonItem" image="back" id="EaH-40-mCO">
                             <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <connections>
@@ -2854,6 +2850,6 @@
         <image name="web" width="19" height="19"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="XKu-YX-95m"/>
+        <segue reference="Kr8-NA-JMx"/>
     </inferredMetricsTieBreakers>
 </document>

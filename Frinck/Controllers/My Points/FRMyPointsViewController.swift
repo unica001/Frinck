@@ -41,21 +41,22 @@ class FRMyPointsViewController:UIViewController,UICollectionViewDelegateFlowLayo
         
         if DeviceType.iPhone5orSE || DeviceType.iPhone4orLess{
             pointCirculeHeight = 0.35
-            collecrtionViewWidth.constant = self.view.frame.size.width * 0.80
+            collecrtionViewWidth.constant = self.view.frame.size.width * 0.70
             logoWidthConstraint.constant =  (self.view.frame.size.width * 0.25) * 2
         }
         else if DeviceType.iPhone678{
             pointCirculeHeight = 0.33
-            collecrtionViewWidth.constant = self.view.frame.size.width * 0.80
+            collecrtionViewWidth.constant = self.view.frame.size.width * 0.70
             logoWidthConstraint.constant =  (self.view.frame.size.width * pointCirculeHeight) * 2
         }
         else if DeviceType.iPhone678p{
             pointCirculeHeight = 0.35
-            collecrtionViewWidth.constant = self.view.frame.size.width * 0.80
+            collecrtionViewWidth.constant = self.view.frame.size.width * 0.70
             logoWidthConstraint.constant =  (self.view.frame.size.width * pointCirculeHeight) * 2
         }
         else{
-            logoWidthConstraint.constant =  (self.view.frame.size.width * pointCirculeHeight) * 2
+            collecrtionViewWidth.constant = self.view.frame.size.width * 0.80
+//            logoWidthConstraint.constant =  (self.view.frame.size.width * pointCirculeHeight) * 2
         }
         collectionViewHeight.constant = (self.view.frame.size.width * pointCirculeHeight) * 2
     }
@@ -83,12 +84,9 @@ class FRMyPointsViewController:UIViewController,UICollectionViewDelegateFlowLayo
     
     // MARK: UICollectionViewDelegateFlowLayout
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        
-       
         if DeviceType.iPhone5orSE{
             return CGSize(width: (collectionView.frame.size.width-25)/2, height: (collectionView.frame.size.width-25)/2) // The size of one cell
-        }
-        else {
+        } else {
             return CGSize(width: self.view.frame.size.width*pointCirculeHeight, height: self.view.frame.size.width*pointCirculeHeight) // The size of one cell
         }
     }
@@ -117,7 +115,6 @@ class FRMyPointsViewController:UIViewController,UICollectionViewDelegateFlowLayo
             let howItWorkViewC = sb.instantiateViewController(withIdentifier: "HowItWorkViewC") as? HowItWorkViewC
             howItWorkViewC?.hidesBottomBarWhenPushed = true
             self.navigationController?.pushViewController(howItWorkViewC!, animated: true)
-            
         default:
             break
         }

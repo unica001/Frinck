@@ -1,66 +1,88 @@
 PODS:
   - ActionSheetPicker-3.0 (2.3.0)
-  - AWSAuthCore (2.6.25):
-    - AWSCore (= 2.6.25)
-  - AWSCognito (2.6.25):
-    - AWSCore (= 2.6.25)
-  - AWSCore (2.6.25)
-  - AWSMobileClient (2.6.25):
-    - AWSAuthCore (= 2.6.25)
-  - AWSS3 (2.6.25):
-    - AWSCore (= 2.6.25)
+  - AWSAuthCore (2.7.2):
+    - AWSCore (= 2.7.2)
+  - AWSCognito (2.7.2):
+    - AWSCore (= 2.7.2)
+  - AWSCognitoIdentityProvider (2.7.2):
+    - AWSCognitoIdentityProviderASF (= 1.0.1)
+    - AWSCore (= 2.7.2)
+  - AWSCognitoIdentityProviderASF (1.0.1)
+  - AWSCore (2.7.2)
+  - AWSMobileClient (2.7.2):
+    - AWSAuthCore (= 2.7.2)
+    - AWSCognitoIdentityProvider (= 2.7.2)
+  - AWSS3 (2.7.2):
+    - AWSCore (= 2.7.2)
   - Bolts (1.9.0):
     - Bolts/AppLinks (= 1.9.0)
     - Bolts/Tasks (= 1.9.0)
   - Bolts/AppLinks (1.9.0):
     - Bolts/Tasks
   - Bolts/Tasks (1.9.0)
-  - CropViewController (2.3.6)
+  - CropViewController (2.3.8)
   - DZNEmptyDataSet (1.8.1)
-  - FacebookCore (0.3.1):
-    - Bolts (~> 1.8)
-    - FBSDKCoreKit (~> 4.33)
-  - FacebookLogin (0.3.1):
-    - Bolts (~> 1.8)
-    - FacebookCore (~> 0.3.1)
-    - FBSDKCoreKit (~> 4.33)
-    - FBSDKLoginKit (~> 4.33)
+  - FacebookCore (0.5.0):
+    - Bolts (~> 1.9)
+    - FBSDKCoreKit (~> 4.37)
+  - FacebookLogin (0.5.0):
+    - Bolts (~> 1.9)
+    - FacebookCore (~> 0.5)
+    - FBSDKCoreKit (~> 4.37)
+    - FBSDKLoginKit (~> 4.37)
   - FAQView (0.5.0)
-  - FBSDKCoreKit (4.34.0):
-    - Bolts (~> 1.7)
-  - FBSDKLoginKit (4.34.0):
+  - FBSDKCoreKit (4.38.1):
+    - Bolts (~> 1.9)
+  - FBSDKLoginKit (4.38.1):
     - FBSDKCoreKit
   - FFCircularProgressView (0.5)
-  - Firebase/Core (5.4.1):
+  - Firebase/Core (5.12.0):
     - Firebase/CoreOnly
-    - FirebaseAnalytics (= 5.0.1)
-  - Firebase/CoreOnly (5.4.1):
-    - FirebaseCore (= 5.0.6)
-  - Firebase/DynamicLinks (5.4.1):
-    - Firebase/Core
-    - FirebaseDynamicLinks (= 3.0.1)
-  - Firebase/Messaging (5.4.1):
+    - FirebaseAnalytics (= 5.3.0)
+  - Firebase/CoreOnly (5.12.0):
+    - FirebaseCore (= 5.1.7)
+  - Firebase/DynamicLinks (5.12.0):
     - Firebase/CoreOnly
-    - FirebaseMessaging (= 3.0.3)
-  - FirebaseAnalytics (5.0.1):
-    - FirebaseCore (~> 5.0)
-    - FirebaseInstanceID (~> 3.0)
-    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
+    - FirebaseDynamicLinks (= 3.1.1)
+  - Firebase/Messaging (5.12.0):
+    - Firebase/CoreOnly
+    - FirebaseMessaging (= 3.2.1)
+  - FirebaseAnalytics (5.3.0):
+    - FirebaseCore (~> 5.1)
+    - FirebaseInstanceID (~> 3.3)
+    - GoogleAppMeasurement (~> 5.3)
+    - GoogleUtilities/AppDelegateSwizzler (~> 5.2)
+    - GoogleUtilities/MethodSwizzler (~> 5.2)
+    - GoogleUtilities/Network (~> 5.2)
+    - "GoogleUtilities/NSData+zlib (~> 5.2)"
     - nanopb (~> 0.3)
-  - FirebaseCore (5.0.6):
-    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
-  - FirebaseDynamicLinks (3.0.1):
-    - FirebaseAnalytics (~> 5.0)
-  - FirebaseInstanceID (3.1.1):
-    - FirebaseCore (~> 5.0)
-  - FirebaseMessaging (3.0.3):
-    - FirebaseCore (~> 5.0)
+  - FirebaseAnalyticsInterop (1.1.0)
+  - FirebaseCore (5.1.7):
+    - GoogleUtilities/Logger (~> 5.2)
+  - FirebaseDynamicLinks (3.1.1):
+    - FirebaseAnalytics (~> 5.1)
+    - FirebaseAnalyticsInterop (~> 1.0)
+    - FirebaseCore (~> 5.1)
+  - FirebaseInstanceID (3.3.0):
+    - FirebaseCore (~> 5.1)
+    - GoogleUtilities/Environment (~> 5.3)
+    - GoogleUtilities/UserDefaults (~> 5.3)
+  - FirebaseMessaging (3.2.1):
+    - FirebaseAnalyticsInterop (~> 1.1)
+    - FirebaseCore (~> 5.1)
     - FirebaseInstanceID (~> 3.0)
-    - GoogleToolboxForMac/Logger (~> 2.1)
+    - GoogleUtilities/Environment (~> 5.2)
+    - GoogleUtilities/Reachability (~> 5.2)
     - Protobuf (~> 3.1)
   - FLAnimatedImage (1.0.12)
   - FrinckPod_iOS (0.1.0)
-  - GoogleSignIn (4.1.2):
+  - GoogleAppMeasurement (5.3.0):
+    - GoogleUtilities/AppDelegateSwizzler (~> 5.2)
+    - GoogleUtilities/MethodSwizzler (~> 5.2)
+    - GoogleUtilities/Network (~> 5.2)
+    - "GoogleUtilities/NSData+zlib (~> 5.2)"
+    - nanopb (~> 0.3)
+  - GoogleSignIn (4.3.0):
     - "GoogleToolboxForMac/NSDictionary+URLArguments (~> 2.1)"
     - "GoogleToolboxForMac/NSString+URLArguments (~> 2.1)"
     - GTMOAuth2 (~> 1.0)
@@ -68,31 +90,45 @@ PODS:
   - GoogleToolboxForMac/DebugUtils (2.1.4):
     - GoogleToolboxForMac/Defines (= 2.1.4)
   - GoogleToolboxForMac/Defines (2.1.4)
-  - GoogleToolboxForMac/Logger (2.1.4):
-    - GoogleToolboxForMac/Defines (= 2.1.4)
-  - "GoogleToolboxForMac/NSData+zlib (2.1.4)":
-    - GoogleToolboxForMac/Defines (= 2.1.4)
   - "GoogleToolboxForMac/NSDictionary+URLArguments (2.1.4)":
     - GoogleToolboxForMac/DebugUtils (= 2.1.4)
     - GoogleToolboxForMac/Defines (= 2.1.4)
     - "GoogleToolboxForMac/NSString+URLArguments (= 2.1.4)"
   - "GoogleToolboxForMac/NSString+URLArguments (2.1.4)"
+  - GoogleUtilities/AppDelegateSwizzler (5.3.6):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+  - GoogleUtilities/Environment (5.3.6)
+  - GoogleUtilities/Logger (5.3.6):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/MethodSwizzler (5.3.6):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/Network (5.3.6):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (5.3.6)"
+  - GoogleUtilities/Reachability (5.3.6):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/UserDefaults (5.3.6):
+    - GoogleUtilities/Logger
   - GradientProgress (1.0)
   - GTMOAuth2 (1.1.6):
     - GTMSessionFetcher (~> 1.1)
-  - GTMSessionFetcher (1.1.15):
-    - GTMSessionFetcher/Full (= 1.1.15)
-  - GTMSessionFetcher/Core (1.1.15)
-  - GTMSessionFetcher/Full (1.1.15):
-    - GTMSessionFetcher/Core (= 1.1.15)
+  - GTMSessionFetcher (1.2.0):
+    - GTMSessionFetcher/Full (= 1.2.0)
+  - GTMSessionFetcher/Core (1.2.0)
+  - GTMSessionFetcher/Full (1.2.0):
+    - GTMSessionFetcher/Core (= 1.2.0)
   - IQKeyboardManagerSwift (5.0.0)
-  - MoEngage-iOS-SDK (4.2.1)
-  - nanopb (0.3.8):
-    - nanopb/decode (= 0.3.8)
-    - nanopb/encode (= 0.3.8)
-  - nanopb/decode (0.3.8)
-  - nanopb/encode (0.3.8)
-  - ObjectMapper (3.3.0)
+  - MoEngage-iOS-SDK (4.3.2)
+  - nanopb (0.3.901):
+    - nanopb/decode (= 0.3.901)
+    - nanopb/encode (= 0.3.901)
+  - nanopb/decode (0.3.901)
+  - nanopb/encode (0.3.901)
+  - ObjectMapper (3.4.1)
   - PINCache (2.3)
   - PINRemoteImage (2.1.4):
     - PINRemoteImage/FLAnimatedImage (= 2.1.4)
@@ -101,7 +137,7 @@ PODS:
   - PINRemoteImage/FLAnimatedImage (2.1.4):
     - FLAnimatedImage (>= 1.0)
     - PINRemoteImage/Core
-  - Protobuf (3.6.0)
+  - Protobuf (3.6.1)
   - QMChatViewController (0.6.6):
     - FFCircularProgressView
     - QMChatViewController/Categories (= 0.6.6)
@@ -153,7 +189,7 @@ PODS:
     - Bolts (>= 1.9.0)
     - QuickBlox (>= 2.17)
   - QuickBlox (2.17.1)
-  - razorpay-pod (1.0.18)
+  - razorpay-pod (1.0.26)
   - Reachability (3.2)
   - SDWebImage (4.4.2):
     - SDWebImage/Core (= 4.4.2)
@@ -189,7 +225,7 @@ DEPENDENCIES:
   - QMChatViewController
   - QMServices
   - QuickBlox
-  - razorpay-pod (= 1.0.18)
+  - razorpay-pod (= 1.0.26)
   - Reachability
   - SDWebImage (~> 4.0)
   - SearchEmojiOnString
@@ -203,6 +239,8 @@ SPEC REPOS:
     - ActionSheetPicker-3.0
     - AWSAuthCore
     - AWSCognito
+    - AWSCognitoIdentityProvider
+    - AWSCognitoIdentityProviderASF
     - AWSCore
     - AWSMobileClient
     - AWSS3
@@ -217,13 +255,16 @@ SPEC REPOS:
     - FFCircularProgressView
     - Firebase
     - FirebaseAnalytics
+    - FirebaseAnalyticsInterop
     - FirebaseCore
     - FirebaseDynamicLinks
     - FirebaseInstanceID
     - FirebaseMessaging
     - FLAnimatedImage
+    - GoogleAppMeasurement
     - GoogleSignIn
     - GoogleToolboxForMac
+    - GoogleUtilities
     - GradientProgress
     - GTMOAuth2
     - GTMSessionFetcher
@@ -258,44 +299,49 @@ CHECKOUT OPTIONS:
 
 SPEC CHECKSUMS:
   ActionSheetPicker-3.0: eef157d75e151f255c5333d26656c7fbfe905a51
-  AWSAuthCore: ee797576ca94ef45b48cbf40bb113944791a09ab
-  AWSCognito: c86cc3a4b1c6e2250dee489c17010662d3e4b3b5
-  AWSCore: 93ac57c361f6ff9c0749adf9404c4a1a1ecdaa2b
-  AWSMobileClient: 89f45bf39e73dedc2c9ce673146167e2009e8200
-  AWSS3: 0614ff4e0f0d11942322b5a15c30927a93fe35db
+  AWSAuthCore: 92237e44b609328b02c8f8dc256d3227c6733d74
+  AWSCognito: 2ca7c46ad841565cf865141f37802a0609a0f33f
+  AWSCognitoIdentityProvider: 84c23c4eba03886a82b1c52865ff25480c75fed0
+  AWSCognitoIdentityProviderASF: f94f1a502e72ef3d0a1de93e10bf7a79c8698118
+  AWSCore: 5734e075ffb7470019f85035623adbe0332d7efd
+  AWSMobileClient: 96730ff12f2ab15d19325e6a8068bb4dec0d0265
+  AWSS3: eb4f5fbd5b5bb675294f8add5be554436ec6857d
   Bolts: ac6567323eac61e203f6a9763667d0f711be34c8
-  CropViewController: e6d4bd512d15a1709e9ddf71fe7d98ffd05dda0f
+  CropViewController: 7be882b7d3fb3faef48a41924e80f689e9df2514
   DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
-  FacebookCore: 33078ef1d7d76b73f7e8c990dca7d3ea6db8d22f
-  FacebookLogin: 6f15bf4fefd7a8865abbfa8fcd7f3dfd87aa275f
+  FacebookCore: 74288d0add931d361b1596beae787ab72c438249
+  FacebookLogin: ebcf34714a1cb9f0759d9f071cfb01ed500996cf
   FAQView: 3be1ca502c3ef1f789bd1c1611ec23458f63fad2
-  FBSDKCoreKit: 0ff57f093b85c8c9d5aba697d3edf68a8960ce78
-  FBSDKLoginKit: 8c78f57a145afb756e4755e69195ebe08a42466e
+  FBSDKCoreKit: 8d47857400e2f5bdea697a80daff882e91c84ef6
+  FBSDKLoginKit: 4621c690d9dd8628031a4791497062183ea34b0d
   FFCircularProgressView: 683a4ab1e1bd613246a3dffa61503ffdebcde8d8
-  Firebase: 355bd535bfdacaa82a7fe8d9784115edefd6fc03
-  FirebaseAnalytics: b3628aea54c50464c32c393fb2ea032566e7ecc2
-  FirebaseCore: 4c28e3b9708ba48a765e76515f913a71596eb5dd
-  FirebaseDynamicLinks: d624a7adc81a8fd70d52be5a6a47a2bc0644b923
-  FirebaseInstanceID: f3f0657372592ecdfdfe2cac604a5a75758376a6
-  FirebaseMessaging: f43eb0c0e1da096e659de6f713038e74862a62cd
+  Firebase: 9190018e296139d938b99521cde0c15a6e8d2946
+  FirebaseAnalytics: 63202d2665de4e6adcbdce189135255d8b5962ba
+  FirebaseAnalyticsInterop: e5f21be9af6548372e2f0815834ff909bff395a2
+  FirebaseCore: 027d350adc039aa5483357c6f56556f117c5170e
+  FirebaseDynamicLinks: 000130a3fc3d81ac7322731b895009f3199ef584
+  FirebaseInstanceID: e2fa4cb35ef5558c200f7f0ad8a53e212215f93e
+  FirebaseMessaging: 0f14a264b0d7f867e8eff5d3556bc5d0d4e57888
   FLAnimatedImage: 4a0b56255d9b05f18b6dd7ee06871be5d3b89e31
   FrinckPod_iOS: c0696928d82914ee0a19dc47757b03a7b7c07d6e
-  GoogleSignIn: d9ef55b10f0aa401a5de2747f59b725e4b9732ac
+  GoogleAppMeasurement: 5029d78f2b438bd30ffb44e6c558b57c21622727
+  GoogleSignIn: 11183592dc63e105475c7305a325045ff95e02b7
   GoogleToolboxForMac: 91c824d21e85b31c2aae9bb011c5027c9b4e738f
+  GoogleUtilities: 95996bea7c7d9b8fb811b7507669a4a8762f80c7
   GradientProgress: ee9c47443c80059b0367467d267b2dd9572de5e2
   GTMOAuth2: c77fe325e4acd453837e72d91e3b5f13116857b2
-  GTMSessionFetcher: 5fa5b80fd20e439ef5f545fb2cb3ca6c6714caa2
+  GTMSessionFetcher: 0c4baf0a73acd0041bf9f71ea018deedab5ea84e
   IQKeyboardManagerSwift: 3f340202ebe1a7076279b9b9b3c817243ddb3aab
-  MoEngage-iOS-SDK: 8f8b6e51f16855cc50a89ba5ed83bd571f6b9c8b
-  nanopb: 5601e6bca2dbf1ed831b519092ec110f66982ca3
-  ObjectMapper: b612bf8c8e99c4dc0bb6013a51f7c27966ed5da9
+  MoEngage-iOS-SDK: 98ef9bfeb731b82e9ef4efe558ec43a393fd1dbc
+  nanopb: 2901f78ea1b7b4015c860c2fdd1ea2fee1a18d48
+  ObjectMapper: 5311bd50ca732930959e7ca1a2de43ab823a5ced
   PINCache: ce36ed282031b92fc7733ffe831f474ff80fddc2
   PINRemoteImage: 4ac4011c5caefd6befd99758e09becede05d3226
-  Protobuf: 0fc0ad8bec688b2a3017a139953e01374fedbd5f
+  Protobuf: 1eb9700044745f00181c136ef21b8ff3ad5a0fd5
   QMChatViewController: 43e22929d4abbdb88cc5db5b25c54f13dbfe8373
   QMServices: 96ee12749db0497cfb6543db9c4b11e8f913e2d7
   QuickBlox: b8c327b61db8382880bd41185703acf228105a1c
-  razorpay-pod: 6303688cc069f872a1250b600dcade5a0f11de3a
+  razorpay-pod: 6f1eeb10e473b4a88baee1cd054eed76b926c923
   Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
   SDWebImage: 624d6e296c69b244bcede364c72ae0430ac14681
   SearchEmojiOnString: 7344970449603396555d058a0dc297b5471bafa7
@@ -305,6 +351,6 @@ SPEC CHECKSUMS:
   TPKeyboardAvoiding: cb69d5ddbe90ce0170e4bc2db1e5e41d4a3ad9a4
   TTTAttributedLabel: 8cffe8e127e4e82ff3af1e5386d4cd0ad000b656
 
-PODFILE CHECKSUM: 1772d7a40e6d30eb6013969e9ac8d10f36134fc6
+PODFILE CHECKSUM: 4ef541175b49e06bd501ec8b5104a6b9d7991435
 
 COCOAPODS: 1.5.3
