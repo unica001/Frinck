@@ -80,13 +80,13 @@
                             </connections>
                         </button>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WZw-gR-0Q0">
-                            <rect key="frame" x="152" y="125" width="42" height="20"/>
+                            <rect key="frame" x="149" y="125" width="48.5" height="21"/>
                             <fontDescription key="fontDescription" name="Montserrat-Bold" family="Montserrat" pointSize="17"/>
                             <nil key="textColor"/>
                             <nil key="highlightedColor"/>
                         </label>
                         <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OAc-Ay-1V5">
-                            <rect key="frame" x="20" y="220" width="305" height="30"/>
+                            <rect key="frame" x="20" y="221" width="305" height="30"/>
                             <subviews>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OPw-Qs-Ril">
                                     <rect key="frame" x="12" y="-0.5" width="130" height="30"/>
@@ -127,7 +127,7 @@
                             </constraints>
                         </view>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Checked in Today" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yaY-y8-ZVP">
-                            <rect key="frame" x="48" y="220" width="251" height="21"/>
+                            <rect key="frame" x="48" y="221" width="251" height="21"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="21" id="JTq-XM-V0M"/>
                             </constraints>
@@ -136,7 +136,7 @@
                             <nil key="highlightedColor"/>
                         </label>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9sq-QD-jY9">
-                            <rect key="frame" x="0.0" y="258" width="345" height="49"/>
+                            <rect key="frame" x="0.0" y="259" width="345" height="49"/>
                             <subviews>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="s9m-jA-qlN">
                                     <rect key="frame" x="0.0" y="1" width="172" height="47"/>
@@ -175,7 +175,7 @@
                             </constraints>
                         </view>
                         <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.75" translatesAutoresizingMaskIntoConstraints="NO" id="Gah-go-aDf" customClass="GradientProgressBar" customModule="GradientProgress">
-                            <rect key="frame" x="31" y="192" width="282" height="20"/>
+                            <rect key="frame" x="31" y="193" width="282" height="20"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="20" id="tqI-eh-rNB"/>
                             </constraints>
@@ -189,7 +189,7 @@
                             </userDefinedRuntimeAttributes>
                         </progressView>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="25 Points" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Of-Dw-lle">
-                            <rect key="frame" x="31" y="161" width="131" height="21"/>
+                            <rect key="frame" x="31" y="162" width="131" height="21"/>
                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <constraints>
                                 <constraint firstAttribute="width" constant="131" id="q2u-he-fhA"/>
@@ -200,7 +200,7 @@
                             <nil key="highlightedColor"/>
                         </label>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Level II" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6XU-V5-p3G">
-                            <rect key="frame" x="165" y="161" width="148" height="21"/>
+                            <rect key="frame" x="165" y="162" width="148" height="21"/>
                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="21" id="oSG-fs-InY"/>
