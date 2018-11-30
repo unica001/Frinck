@@ -11,6 +11,7 @@
 #endif
 
 #import "AWSMobileClient.h"
+#import "_AWSMobileClient.h"
 
 FOUNDATION_EXPORT double AWSMobileClientVersionNumber;
 FOUNDATION_EXPORT const unsigned char AWSMobileClientVersionString[];

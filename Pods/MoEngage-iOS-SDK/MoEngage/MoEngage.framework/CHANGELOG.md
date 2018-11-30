@@ -2,6 +2,28 @@
 =================================
 
 ## Change Log:
+
+### Version 4.3.2  *(16th November, 2018)*
+-------------------------------------------
+* Fixed a of crash in periodic sync module of the SDK, which used to occur due to a deadlock while initiating the timer for periodic sync.
+
+### Version 4.3.0  *(10th October, 2018)*
+-------------------------------------------
+* Geofence Module Separated from the Core SDK. Refer to the [docs](https://docs.moengage.com/docs/geofences) for more info.
+
+### Version 4.2.4  *(4th October, 2018)*
+-------------------------------------------
+* Bug Fix: Universal links when sent as deep links were not working.
+
+### Version 4.2.3  *(13th August, 2018)*
+-------------------------------------------
+* Real-time Trigger Campaigns Bug Fix : Wrong push notification payload was posted in offline scenarios where event personalization was used.
+
+### Version 4.2.2  *(26th July, 2018)*
+-------------------------------------------
+* Delegate method `inboxCellSelectedWithPushDict:`  provided for getting Push Notification Payload on clicking notification in SDK inbox.
+* Now for processing inbox notifications clicks the same way as push notification clicks set `shouldProcessNotificationActions` of MOInboxViewController instance to `true`.
+
 ### Version 4.2.1  *(10th July, 2018)*
 -------------------------------------------
 * Network request and response caching in Cache.db disabled.

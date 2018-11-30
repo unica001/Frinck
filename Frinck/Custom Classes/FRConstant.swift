@@ -199,6 +199,7 @@ let kdailyCheckIn = "user/dailyappcheckin"
 let kclickUrl = "user/clickurl"
 let kmyStory = "story/mystory"
 let klogout = "authorization/logout"
+let konlineBrand = "brand/getonlinebrand"
 
 let kCityId = "cityId"
 let kpageNo = "PageNo"
@@ -206,6 +207,8 @@ let kBrandLogo = "BrandLogo"
 let kBrandList = "BrandList"
 let kSearchKey = "SearchKey"
 let kRequestId = "RequestId"
+let kstoreWebsite = "storeWebsite"
+let kstoreImage = "storeImage"
 
 // MARK: - Get location
 

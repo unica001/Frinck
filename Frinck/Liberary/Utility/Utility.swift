@@ -43,23 +43,16 @@ class Utility: NSObject {
         
         let components = Calendar.current.dateComponents(units, from: date, to: todayDate as Date)
         
-        if components.year! > 0
-        {
+        if components.year! > 0 {
             let strTime = "\(components.year!) " + (components.year! > 1 ?"years ago"  : "year ago")
             return strTime
-        }
-        else if components.month! > 0
-        {
+        } else if components.month! > 0 {
             let strTime = "\(components.month!) " + (components.month! > 1 ? "months ago": "month ago")
             return strTime
-        }
-        else if components.weekOfYear! > 0
-        {
+        } else if components.weekOfYear! > 0 {
             let strTime = "\(components.weekOfYear!) " + (components.weekOfYear! > 1 ? "weeks ago" : "week ago")
             return strTime
-        }
-        else if (components.day! > 0)
-        {
+        } else if (components.day! > 0) {
             let strTime = (components.day! > 1 ? "\(components.day!) days ago" :"Yesterday")
             return strTime
         }
@@ -72,11 +65,10 @@ class Utility: NSObject {
         {
             let strTime = "\(components.minute!) " + (components.minute! > 1 ?"mins ago" : "min ago")
             return strTime
-        }
-        else
-        {
-            let strTime = NSLocalizedString("Just now", comment: "")
-            return strTime
+        } else if (components.second! >= 3) {
+            return "\(components.second!) seconds ago"
+        } else {
+            return "Just now"
         }
     }
 }

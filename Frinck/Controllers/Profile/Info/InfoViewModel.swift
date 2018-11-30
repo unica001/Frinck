@@ -56,25 +56,25 @@ class InfoViewModel: InfoViewModelling {
         var dictParam = [String : AnyObject]()
         for index in 0..<dataStore.count {
             switch dataStore[index].type {
-            case .name:
+            case .name?:
                 if dataStore[index].value.trimmingCharacters(in: .whitespaces) == "" {
                     validHandler([:], "Please enter name", false)
                     return
                 }
                 dictParam["CustomerName"] = dataStore[index].value.trimmingCharacters(in: .whitespaces) as AnyObject
-            case .username:
+            case .username?:
                 if dataStore[index].value.trimmingCharacters(in: .whitespaces) == "" {
                     validHandler([:], "Please enter username", false)
                     return
                 }
                 dictParam["CustomerUserName"] = dataStore[index].value.trimmingCharacters(in: .whitespaces) as AnyObject
-            case .dob:
+            case .dob?:
                 if dataStore[index].value == "" {
                     validHandler([:], "Please select date of birth", false)
                     return
                 }
                 dictParam["CustomerDob"] = dataStore[index].value as AnyObject
-            case .email:
+            case .email?:
                 if dataStore[index].value.trimmingCharacters(in: .whitespaces) == "" {
                     validHandler([:], "Please enter email", false)
                     return
@@ -84,14 +84,14 @@ class InfoViewModel: InfoViewModelling {
                     return
                 }
                 dictParam["CustomerEmail"] = dataStore[index].value.trimmingCharacters(in: .whitespaces) as AnyObject
-            case .phoneNo:
+            case .phoneNo?:
                 if dataStore[index].value.trimmingCharacters(in: .whitespaces) != "" && (dataStore[index].value.trimmingCharacters(in: .whitespaces).count < 10) {
                     validHandler([:], "Please enter mobile no", false)
                     return
                 }
                 dictParam["CustomerMobile"] = dataStore[index].value.trimmingCharacters(in: .whitespaces) as AnyObject
                 dictParam["CustomerCountryCode"] = dataStore[index].countryCode as AnyObject
-            case .gender:
+            case .gender?:
                 if dataStore[index].value.trimmingCharacters(in: .whitespaces) == "" {
                     validHandler([:], "Please select gender", false)
                 }
